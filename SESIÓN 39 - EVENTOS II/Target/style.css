@@ -1,0 +1,22 @@
+body {
+    color:floralwhite;
+    background-color: slateblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.color{
+    background-color: lightcoral;
+}
